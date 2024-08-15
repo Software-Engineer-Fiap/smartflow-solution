@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    user-select: none;
+
+    &:focus {
+        outline: none;
+    };
+};
+
+body, html {
+    min-height: 100%;
+};
+
+body, input, textarea, select, button {
+    font-family: 'Segoe UI';
+    font-size: 1vmax;
+
+    color: #212121;
+};
+
+button {
+    border: none;
+    background: none;
+
+    cursor: pointer;
+};
+
+a { 
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    background: none;
+
+    cursor: auto;
+
+    &:focus {
+        outline: none;
+    };
+};

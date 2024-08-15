@@ -1,8 +1,13 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react';
+
+import { 
+    createRoot 
+} from 'react-dom/client';
+
+import App from './core';
 
 createRoot(document.getElementById('root')).render(
-    <StrictMode>
-        <h1>Smartflow Solution</h1>
-    </StrictMode>,
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>,
 );

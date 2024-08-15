@@ -1,0 +1,652 @@
+[
+    {
+        "IS": "ARDA2",
+        "NOME": "Ali",
+        "CODIGO_AT": "4890722-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "ASGN",
+        "NOME": "Ari",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "AZBU",
+        "NOME": "Arl",
+        "CODIGO_AT": "4890722-A0645",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": "4/1/2024",
+        "AUSENCIA_FIN": "4/30/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "BMIR",
+        "NOME": "Ber",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "CJDA",
+        "NOME": "Cla",
+        "CODIGO_AT": "4890722-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "CRSI",
+        "NOME": "Car",
+        "CODIGO_AT": "4890742-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "CTT",
+        "NOME": "Car",
+        "CODIGO_AT": "4890703-A0444",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "DDAS",
+        "NOME": "Dav",
+        "CODIGO_AT": "4890722-A0662",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "DFLD",
+        "NOME": "Dan",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "EDSR",
+        "NOME": "Edi",
+        "CODIGO_AT": "4890722-A0693",
+        "DESCRICAO_AT": "Líder",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "ESCM",
+        "NOME": "Ede",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "FANT",
+        "NOME": "Fla",
+        "CODIGO_AT": "4890722-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "FSIM",
+        "NOME": "Fra",
+        "CODIGO_AT": "4890702-A0645",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "GLEO",
+        "NOME": "Gle",
+        "CODIGO_AT": "4890742-A0664",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": "4/15/2024",
+        "AUSENCIA_FIN": "4/19/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "GLO",
+        "NOME": "Gis",
+        "CODIGO_AT": "4890722-A0693",
+        "DESCRICAO_AT": "Líder",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "GRIA",
+        "NOME": "Gra",
+        "CODIGO_AT": "4890722-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "GROD1",
+        "NOME": "Gab",
+        "CODIGO_AT": "4890722-A0662",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "GUSB",
+        "NOME": "Gui",
+        "CODIGO_AT": "4890722-A0641",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Bg",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "IFGO",
+        "NOME": "Ith",
+        "CODIGO_AT": "4890742-A0641",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Bg",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JAMJ",
+        "NOME": "Jos",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JDEF",
+        "NOME": "Joa",
+        "CODIGO_AT": "4890742-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JMAP3",
+        "NOME": "Joa",
+        "CODIGO_AT": "4890722-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JNIS",
+        "NOME": "Jan",
+        "CODIGO_AT": "4890722-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": "4/1/2024",
+        "AUSENCIA_FIN": "4/30/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "JOJC",
+        "NOME": "Jon",
+        "CODIGO_AT": "4890722-A0694",
+        "DESCRICAO_AT": "Líder",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JVF",
+        "NOME": "Joc",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "JVM6",
+        "NOME": "Jos",
+        "CODIGO_AT": "4890722-A0664",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": "6/1/2024",
+        "AUSENCIA_FIN": "6/30/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "LAS",
+        "NOME": "Luc",
+        "CODIGO_AT": "4890722-A0665",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "LFED2",
+        "NOME": "Lui",
+        "CODIGO_AT": "4890722-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "LFRO1",
+        "NOME": "Luc",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "LGOM2",
+        "NOME": "Lea",
+        "CODIGO_AT": "4890722-A0665",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MAPC5",
+        "NOME": "Mar",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MDSC",
+        "NOME": "Maj",
+        "CODIGO_AT": "4890742-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MES1",
+        "NOME": "Mar",
+        "CODIGO_AT": "4890703-A0314",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MGRK",
+        "NOME": "Mar",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MIDS",
+        "NOME": "Mic",
+        "CODIGO_AT": "4890742-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "MTTA",
+        "NOME": "Mar",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "NSRL",
+        "NOME": "Nel",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "OTMD",
+        "NOME": "Ota",
+        "CODIGO_AT": "4890722-A0662",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "PCSF",
+        "NOME": "Per",
+        "CODIGO_AT": "4890742-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "PFRN1",
+        "NOME": "Ped",
+        "CODIGO_AT": "4890722-A0642",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "PMSC",
+        "NOME": "Pla",
+        "CODIGO_AT": "4890742-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "PMSN",
+        "NOME": "Pat",
+        "CODIGO_AT": "4890702-A0653",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RBIS",
+        "NOME": "Ric",
+        "CODIGO_AT": "4890722-A0424",
+        "DESCRICAO_AT": "Gerente",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RBR1",
+        "NOME": "Rod",
+        "CODIGO_AT": "4890722-A0641",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Bg",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RDRB",
+        "NOME": "Ren",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RKEN",
+        "NOME": "Raf",
+        "CODIGO_AT": "4890722-A0662",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Jr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RNME",
+        "NOME": "Rod",
+        "CODIGO_AT": "4890722-A0694",
+        "DESCRICAO_AT": "Líder",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RRLV",
+        "NOME": "Raf",
+        "CODIGO_AT": "4890742-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RRO1",
+        "NOME": "Rog",
+        "CODIGO_AT": "4890722-A0664",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "RTEC",
+        "NOME": "Raq",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": "5/13/2024",
+        "AUSENCIA_FIN": "5/26/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "SMMT",
+        "NOME": "Sil",
+        "CODIGO_AT": "4890722-A0694",
+        "DESCRICAO_AT": "Líder",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "SVAS",
+        "NOME": "Sil",
+        "CODIGO_AT": "4890702-A0645",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": "5/1/2024",
+        "AUSENCIA_FIN": "5/31/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    },
+    {
+        "IS": "T3ASC4",
+        "NOME": "Aga",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3CIBM",
+        "NOME": "Cin",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3FJSR",
+        "NOME": "Fel",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3JFBD",
+        "NOME": "Jor",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3JSM6",
+        "NOME": "Jef",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3LSC2",
+        "NOME": "Lan",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3MSQ1",
+        "NOME": "Mar",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3TDAS",
+        "NOME": "Thi",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "T3TLGR",
+        "NOME": "Thi",
+        "CODIGO_AT": "4890712-Z0001",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "TSIA",
+        "NOME": "Tia",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "VLU",
+        "NOME": "Val",
+        "CODIGO_AT": "4890722-A0644",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Sr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "WJMS",
+        "NOME": "Wil",
+        "CODIGO_AT": "4890742-A0643",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Pr",
+        "AUSENCIA_INI": null,
+        "AUSENCIA_FIN": null,
+        "AUSENCIA_TIPO": null
+    },
+    {
+        "IS": "WPDM",
+        "NOME": "Was",
+        "CODIGO_AT": "4890722-A0645",
+        "DESCRICAO_AT": "Consultor",
+        "SENIORIDADE": "Ex",
+        "AUSENCIA_INI": "4/1/2024",
+        "AUSENCIA_FIN": "4/30/2024",
+        "AUSENCIA_TIPO": "FÉRIAS"
+    }
+]
