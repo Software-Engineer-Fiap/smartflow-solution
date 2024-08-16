@@ -6,20 +6,31 @@ import EquipeData from '../../assets/equipe.json';
 
 import { 
     Type 
-} from './data/types';
+} from './utils/types';
 import { 
     subtractDates 
-} from './data/dates';
+} from './utils/dates';
+
+import { FaUserGroup } from 'react-icons/fa6';
+import { FaPlus } from "react-icons/fa";
 
 const Equipe = () => {
     return (
-        <div className="container-equipe">
-            <div className="header-equipe">
-                <h2>Gestão da equipe</h2>
-                <span>Dashboard para monitoramento e gestão da equipe.</span>
+        <div className='container-equipe'>
+            <div className='header-equipe'>
+                <div className='header-equipe-left'>
+                    <div>
+                        <FaUserGroup/>
+                        <h2>Gestão da equipe</h2>
+                    </div>
+                    <span>Dashboard para monitoramento e gestão da equipe.</span>
+                </div>
+                <div className='header-equipe-right'>
+                    <button><FaPlus/></button>
+                </div>
             </div>
 
-            <div className="content-equipe">
+            <div className='content-equipe'>
                 <tr>
                     <th>Nome</th>
                     <th>Código AT</th>
@@ -31,7 +42,7 @@ const Equipe = () => {
 
                 {EquipeData.map((item, key) => (
                     <tr key={key}>
-                        <td>{item.NAME}</td>
+                        <td>{item.NAME} {item.AUSENCIA_TIPO && <div className='content-equipe-notify'/>}</td>
                         <td>{item.ID}</td>
                         <td>
                             <div className={`content-equipe-color-${Type[item.DESCRICAO]}`}>
@@ -43,7 +54,7 @@ const Equipe = () => {
                                 <span>{Type[item.SENIORIDADE]}</span>
                             </div>
                         </td>
-                        <td>{subtractDates(item.AUSENCIA_INI, item.AUSENCIA_FIN)} {item.AUSENCIA_TIPO ? `dias restantes de ${item.AUSENCIA_TIPO.toLowerCase()}` : 'Nenhuma'}</td>
+                        <td>{item.AUSENCIA_TIPO ? `${item.AUSENCIA_TIPO} ( ${subtractDates(item.AUSENCIA_INI, item.AUSENCIA_FIN)} dias restantes )` : 'Nenhuma'}</td>
                         <td><button>Editar</button></td>
                     </tr>
                 ))}

@@ -27,7 +27,7 @@
         "SENIORIDADE": "Ex",
         "AUSENCIA_INI": "4/1/2024",
         "AUSENCIA_FIN": "4/30/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "BMIR",
@@ -137,7 +137,7 @@
         "SENIORIDADE": "Sr",
         "AUSENCIA_INI": "4/15/2024",
         "AUSENCIA_FIN": "4/19/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "GLO",
@@ -227,7 +227,7 @@
         "SENIORIDADE": "Pr",
         "AUSENCIA_INI": "4/1/2024",
         "AUSENCIA_FIN": "4/30/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "JOJC",
@@ -257,7 +257,7 @@
         "SENIORIDADE": "Sr",
         "AUSENCIA_INI": "6/1/2024",
         "AUSENCIA_FIN": "6/30/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "LAS",
@@ -497,7 +497,7 @@
         "SENIORIDADE": "Sr",
         "AUSENCIA_INI": "5/13/2024",
         "AUSENCIA_FIN": "5/26/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "SMMT",
@@ -517,7 +517,7 @@
         "SENIORIDADE": "Ex",
         "AUSENCIA_INI": "5/1/2024",
         "AUSENCIA_FIN": "5/31/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     },
     {
         "IS": "T3ASC4",
@@ -647,6 +647,6 @@
         "SENIORIDADE": "Ex",
         "AUSENCIA_INI": "4/1/2024",
         "AUSENCIA_FIN": "4/30/2024",
-        "AUSENCIA_TIPO": "FÉRIAS"
+        "AUSENCIA_TIPO": "Férias"
     }
 ]
