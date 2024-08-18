@@ -281,3 +281,191 @@
         text-transform: capitalize;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-modal-equipe {
+    position: absolute;
+
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #111111C4;
+};
+
+.content-modal-equipe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 30%;
+
+    gap: 1vmax;
+    padding: 2.4vmax;
+
+    border-radius: .4vmax;
+    border: .15vmax solid #222222;
+
+    background: #141414;
+};
+
+.header-modal-equipe {
+    display: flex;
+
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+    
+        h2 {
+            font-weight: 500;
+            font-size: 1.4vmax;
+    
+            color: #EBEBEB;
+    
+            letter-spacing: .04vmax;
+        };
+    
+        span {
+            font-weight: 400;
+            font-size: .8vmax;
+    
+            color: #949090;
+        };
+    };
+};
+
+.form-modal-equipe {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: .8vmax;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 36%;
+        height: 2.2vmax;
+
+        margin-top: .4vmax;
+        padding: 0vmax .3vmax;
+
+        background: #029affbb;
+
+        border-radius: .14vmax;
+        border: .1vmax solid #244cbbbb;
+
+        color: #DADADA;
+
+        font-size: .8vmax;
+        font-weight: 400;
+    };
+};
+.form-item-modal-equipe {
+    display: flex;
+    flex-direction: column;
+
+    gap: .3vmax;
+
+    span {
+        font-weight: 400;
+        font-size: .8vmax;
+
+        color: #C7C7C7;
+    };
+};
+.form-input-modal-equipe {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 1.8vmax;
+
+    gap: .3vmax;
+    padding: 0vmax .4vmax;
+
+    border: .12vmax solid #222222;
+    border-radius: .2vmax;
+
+    input {
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+
+        font-weight: 500;
+        font-size: .8vmax;
+
+        color: #535353;
+    };
+    input::placeholder {
+        font-weight: 500;
+        font-size: .8vmax;
+
+        color: #353535;
+
+        padding-bottom: .2vmax;
+    }
+
+    svg {
+        width: .75vmax;
+        height: .75vmax;
+        
+        color: #2E2E2E;
+    };
+};
+
+.close-modal-equipe {
+    position: relative;
+
+    left: 2vmax;
+    bottom: 2vmax;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1.2vmax;
+    height: 1.2vmax;
+
+    svg {
+        width: 1.2vmax;
+        height: 1.2vmax;
+        
+        color: #3d3d3d;
+    };
+};
