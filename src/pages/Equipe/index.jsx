@@ -102,7 +102,7 @@ const Equipe = () => {
                         <th>Editar</th>
                     </tr>
 
-                    {data.map((item, key) => (
+                    {data.reverse().map((item, key) => (
                         <tr key={key}>
                             <td>{item.NAME} {item.AUSENCIA_TIPO && <div className='content-equipe-notify'/>}</td>
                             <td>{item.ID}</td>

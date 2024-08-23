@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './styles.scss';
 
@@ -21,6 +21,19 @@ const ModalEdit = ({ user, closeModal, handleSubmitModal }) => {
     const handleChange = (e) => {
         const { name, value } = e.target;
         user[name] = value;
+    };
+
+    useEffect(() => {
+        user['DESCRICAO'] = dropdownDescription;
+    }, [dropdownDescription]);
+    useEffect(() => {
+        user['SENIORIDADE'] = dropdownSeniority;
+    }, [dropdownSeniority]);
+
+    const handleSubmit = () => {
+        if (user.NAME === undefined) return;
+
+        handleSubmitModal('edit', user);
     };
 
     return (
@@ -58,7 +71,7 @@ const ModalEdit = ({ user, closeModal, handleSubmitModal }) => {
                             <input type="text" placeholder={user.AUSENCIA_TIPO ? `${user.AUSENCIA_TIPO} ( ${subtractDates(user.AUSENCIA_INI, user.AUSENCIA_FIN)} dias restantes )` : 'Nenhuma'} onChange={handleChange}/>
                         </div>
                     </div> */}
-                    <button onClick={() => handleSubmitModal('edit', user)}>Enviar</button>
+                    <button onClick={handleSubmit}>Enviar</button>
                 </div>
             </div>
         </div>

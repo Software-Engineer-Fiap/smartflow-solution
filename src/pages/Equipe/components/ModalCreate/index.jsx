@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './styles.scss';
 
@@ -15,6 +15,21 @@ const ModalCreate = ({ handleSubmitModal, closeModal }) => {
     const handleChange = (e) => {
         const { name, value } = e.target;
         setNewUser({ ...newUser, [name]: value });
+    };
+
+    useEffect(() => {
+        setNewUser({ ...newUser, 'DESCRICAO': dropdownDescription });
+    }, [dropdownDescription]);
+    useEffect(() => {
+        setNewUser({ ...newUser, 'SENIORIDADE': dropdownSeniority });
+    }, [dropdownSeniority]);
+
+    const handleSubmit = () => {
+        if (newUser.NAME === undefined) return;
+        if (dropdownDescription === 'Selecione') return;
+        if (dropdownSeniority === 'Selecione') return;
+
+        handleSubmitModal('create', {}, newUser);
     };
 
     return (
@@ -45,7 +60,7 @@ const ModalCreate = ({ handleSubmitModal, closeModal }) => {
                         <span>Senioridade</span>
                         <Dropdown type='seniority' selected={dropdownSeniority} setSelected={setDropdownSeniority}/>
                     </div>
-                    <button onClick={() => handleSubmitModal('create', {}, newUser)}>Adicionar membro</button>
+                    <button onClick={handleSubmit}>Adicionar membro</button>
                 </div>
             </div>
         </div>
