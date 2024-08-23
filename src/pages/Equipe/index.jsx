@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 import './styles.scss';
 
+import ModalCreate from './components/ModalCreate';
+import ModalEdit from './components/ModalEdit';
+
 import EquipeData from '../../assets/equipe.json';
 
 import { 
@@ -10,14 +13,16 @@ import {
 import { 
     subtractDates 
 } from './utils/dates';
+import {
+    generateRandomId
+} from './utils/id';
 
 import { FaUserGroup } from 'react-icons/fa6';
 import { FaPlus } from "react-icons/fa";
 
-import { FaUser } from "react-icons/fa";
-import { IoCloseCircleOutline } from "react-icons/io5";
-
 const Equipe = () => {
+    const [data, setData] = useState(EquipeData);
+
     const [modal, setModal] = useState({ status: false, type: '' });
     const [user, setUser] = useState({});
 
@@ -36,6 +41,39 @@ const Equipe = () => {
         type === 'edit' && setUser({});
 
         setModal({ status: !modal, type: 'type' });
+    };
+
+    const handleSubmitModal = (type, editUser, newUser) => {
+        if (type === 'edit') {
+            const itemIndex = data.findIndex(item => item.ID === editUser.ID);
+            if (itemIndex !== -1) {
+                const newData = [...data];
+                newData[itemIndex] = {
+                    IS: editUser.IS,
+                    NAME: editUser.NAME,
+                    ID: editUser.ID,
+                    DESCRICAO: editUser.DESCRICAO,
+                    SENIORIDADE: editUser.SENIORIDADE,
+                    AUSENCIA_INI: null,
+                    AUSENCIA_FIN: null,
+                    AUSENCIA_TIPO: null
+                };
+                setData(newData);
+            };
+        } else {
+            setData([...data, {
+                IS: "AWDE4",
+                NAME: newUser.NAME,
+                ID: generateRandomId(),
+                DESCRICAO: newUser.DESCRICAO,
+                SENIORIDADE: newUser.SENIORIDADE,
+                AUSENCIA_INI: null,
+                AUSENCIA_FIN: null,
+                AUSENCIA_TIPO: null
+            }]);
+        };
+
+        closeModal(type);
     };
 
     return (
@@ -64,7 +102,7 @@ const Equipe = () => {
                         <th>Editar</th>
                     </tr>
 
-                    {EquipeData.map((item, key) => (
+                    {data.map((item, key) => (
                         <tr key={key}>
                             <td>{item.NAME} {item.AUSENCIA_TIPO && <div className='content-equipe-notify'/>}</td>
                             <td>{item.ID}</td>
@@ -85,54 +123,20 @@ const Equipe = () => {
                 </tbody>
             </table>
 
-            {modal.status && 
-                <div className='container-modal-equipe'>
-                    <div className='content-modal-equipe'> 
-                        <div className='header-modal-equipe'>
-                            <div>
-                                <h2>{modal.type === 'edit' ? `${user.NAME + ` ( ${user.ID} )`}` : 'Adicionar novo membro'}</h2>
-                                <span>{modal.type === 'edit' ? 'Editar os detalhes sobre o membro.' : 'Adicione os detalhes sobre o novo membro.'}</span>
-                            </div>
-                            <button className='close-modal-equipe' onClick={() => closeModal(modal.type)}>
-                                <IoCloseCircleOutline/>
-                            </button>
-                        </div>
-                        <div className='form-modal-equipe'>
-                            <div className='form-item-modal-equipe'>
-                                <span>Nome</span>
-                                <div className='form-input-modal-equipe'>
-                                    <FaUser/>
-                                    <input type="text" placeholder={modal.type === 'edit' ? user.NAME : 'Nome'}/>
-                                </div>
-                            </div>
-                            <div className='form-item-modal-equipe'>
-                                <span>Descrição</span>
-                                <div className='form-input-modal-equipe'>
-                                    <FaUser/>
-                                    <input type="text" placeholder={modal.type === 'edit' ? user.DESCRICAO : 'Descrição'}/>
-                                </div>
-                            </div>
-                            <div className='form-item-modal-equipe'>
-                                <span>Senioridade</span>
-                                <div className='form-input-modal-equipe'>
-                                    <FaUser/>
-                                    <input type="text" placeholder={modal.type === 'edit' ?  user.SENIORIDADE : 'Senioridade'}/>
-                                </div>
-                            </div>
-                            {modal.type === 'edit' && (
-                                <div className='form-item-modal-equipe'>
-                                    <span>Observações</span>
-                                    <div className='form-input-modal-equipe'>
-                                        <FaUser/>
-                                        <input type="text" placeholder={user.AUSENCIA_TIPO ? `${user.AUSENCIA_TIPO} ( ${subtractDates(user.AUSENCIA_INI, user.AUSENCIA_FIN)} dias restantes )` : 'Nenhuma'}/>
-                                    </div>
-                                </div>
-                            )}
-                            <button onClick={() => closeModal(modal.type)}>{modal.type === 'edit' ? 'Enviar': 'Adicionar membro'}</button>
-                        </div>
-                    </div>
-                </div>
-            }
+            {modal.status ?
+                modal.type === 'edit' ? 
+                    <ModalEdit
+                        user={user}
+                        closeModal={closeModal}
+                        handleSubmitModal={handleSubmitModal}
+                    /> 
+                : 
+                    <ModalCreate
+                        closeModal={closeModal}
+                        handleSubmitModal={handleSubmitModal}
+                    />
+                :
+            <div/>}
         </div>
     );
 };

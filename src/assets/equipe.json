@@ -24,7 +24,7 @@
         "NAME": "Arl",
         "ID": "4890722-A0645",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": "4/1/2024",
         "AUSENCIA_FIN": "4/30/2024",
         "AUSENCIA_TIPO": "Férias"
@@ -124,7 +124,7 @@
         "NAME": "Fra",
         "ID": "4890702-A0645",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -174,7 +174,7 @@
         "NAME": "Gui",
         "ID": "4890722-A0641",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Bg",
+        "SENIORIDADE": "Sr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -184,7 +184,7 @@
         "NAME": "Ith",
         "ID": "4890742-A0641",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Bg",
+        "SENIORIDADE": "Sr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -264,7 +264,7 @@
         "NAME": "Luc",
         "ID": "4890722-A0665",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -294,7 +294,7 @@
         "NAME": "Lea",
         "ID": "4890722-A0665",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -434,7 +434,7 @@
         "NAME": "Rod",
         "ID": "4890722-A0641",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Bg",
+        "SENIORIDADE": "Sr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -514,7 +514,7 @@
         "NAME": "Sil",
         "ID": "4890702-A0645",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": "5/1/2024",
         "AUSENCIA_FIN": "5/31/2024",
         "AUSENCIA_TIPO": "Férias"
@@ -524,7 +524,7 @@
         "NAME": "Aga",
         "ID": "4890712-Z0001",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": null,
         "AUSENCIA_FIN": null,
         "AUSENCIA_TIPO": null
@@ -644,7 +644,7 @@
         "NAME": "Was",
         "ID": "4890722-A0645",
         "DESCRICAO": "Consultor",
-        "SENIORIDADE": "Ex",
+        "SENIORIDADE": "Pr",
         "AUSENCIA_INI": "4/1/2024",
         "AUSENCIA_FIN": "4/30/2024",
         "AUSENCIA_TIPO": "Férias"
