@@ -1,11 +1,9 @@
 [
     {
-        "PROJETO": "PROJETO_01",
+        "CONTRATO": "CONTRATO_01",
         "DESCRICAO": "BBR05",
         "TIPO_CONTRATO": "FUNCIONAL",
-        "MODULO": "ABAP;BASIS;BW;CO;SD;FI;MM;PP;QM;SD;WN",
-        "TIPO_DEMANDA": "Manutenção;Melhoria;Projetos;Suporte;Erro;Problema",
-        "BASELINE": 252,
+        "TIPO_DEMANDA": "Projetos;Suporte;Erro;Problema",
         "VALORCONTRATO": 16800,
         "EXPERT": 0.1,
         "CUSTO_VENDA_EXPERT": 71.78,
@@ -19,16 +17,14 @@
         "CUSTO_VENDA_ESTAGIARIO": 14.49,
         "HORAS_GESTAO": 37.8,
         "CUSTO_VENDA_GESTAO": 77.02,
-        "INICIO_CONTRATO": "1/1/2024",
-        "FIM_CONTRATO": "12/31/2024"
+        "INICIO_CONTRATO": "01/01/2024",
+        "FIM_CONTRATO": "31/12/2024"
     },
     {
-        "PROJETO": "PROJETO_01",
+        "CONTRATO": "CONTRATO_02",
         "DESCRICAO": "BBR05",
         "TIPO_CONTRATO": "BASIS",
-        "MODULO": "BASIS",
         "TIPO_DEMANDA": "Perfis;Transporte",
-        "BASELINE": 70,
         "VALORCONTRATO": 1680,
         "EXPERT": 0,
         "CUSTO_VENDA_EXPERT": 71.78,
@@ -42,16 +38,14 @@
         "CUSTO_VENDA_ESTAGIARIO": 14.49,
         "HORAS_GESTAO": 10.5,
         "CUSTO_VENDA_GESTAO": 77.02,
-        "INICIO_CONTRATO": "1/1/2024",
-        "FIM_CONTRATO": "12/31/2024"
+        "INICIO_CONTRATO": "15/03/2024",
+        "FIM_CONTRATO": "12/07/2024"
     },
     {
-        "PROJETO": "PROJETO_02",
+        "CONTRATO": "CONTRATO_03",
         "DESCRICAO": "RIG10",
         "TIPO_CONTRATO": "FUNCIONAL",
-        "MODULO": "CO;FI;MASTERSAF;MM;PM;PP;QM;SD;WF;WM",
-        "TIPO_DEMANDA": "Manutenção;Melhoria;Suporte;Erro;Problema",
-        "BASELINE": 280,
+        "TIPO_DEMANDA": "Manutenção;Melhoria;Suporte;Erro",
         "VALORCONTRATO": 19600,
         "EXPERT": 0.1,
         "CUSTO_VENDA_EXPERT": 71.78,
@@ -65,7 +59,7 @@
         "CUSTO_VENDA_ESTAGIARIO": 14.49,
         "HORAS_GESTAO": 42,
         "CUSTO_VENDA_GESTAO": 77.02,
-        "INICIO_CONTRATO": "1/1/2024",
-        "FIM_CONTRATO": "12/31/2024"
+        "INICIO_CONTRATO": "09/07/2024",
+        "FIM_CONTRATO": "09/07/2028"
     }
 ]
