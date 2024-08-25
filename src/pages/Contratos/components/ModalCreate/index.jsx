@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './styles.scss';
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 const ModalCreate = ({ onClose, addNewContract }) => {
 
@@ -42,7 +43,9 @@ const ModalCreate = ({ onClose, addNewContract }) => {
   return (
     <div className='modal-create'>
       <div className='modal-content'>
-        <span className='close' onClick={onClose}>&times;</span>
+        <span className='close' onClick={onClose}>
+          <IoCloseCircleOutline/>
+        </span>
         <h2>Criar novo contrato</h2>
         <form onSubmit={handleSubmit}>
           <div>
@@ -120,14 +123,18 @@ const ModalCreate = ({ onClose, addNewContract }) => {
               Custo de Venda Gestão:
               <input type='text' name='CUSTO_VENDA_GESTAO' value={contractData.CUSTO_VENDA_GESTAO} required="true" onChange={handleInputChange} />
             </label>
-            <label>
-              Início do Contrato:
-              <input type='date' name='INICIO_CONTRATO' value={contractData.INICIO_CONTRATO} required="true" onChange={handleInputChange} />
-            </label>
-            <label>
-              Fim do Contrato:
-              <input type='date' name='FIM_CONTRATO' value={contractData.FIM_CONTRATO} required="true" onChange={handleInputChange} />
-            </label>
+            <div class="date-input-wrapper">
+              <label>
+                Início do Contrato:
+                <input type='date' name='INICIO_CONTRATO' value={contractData.INICIO_CONTRATO} required="true" onChange={handleInputChange} />
+              </label>
+            </div>
+            <div class="date-input-wrapper">
+              <label>
+                Fim do Contrato:
+                <input type='date' name='FIM_CONTRATO' value={contractData.FIM_CONTRATO} required="true" onChange={handleInputChange} />
+              </label>
+            </div>
             <button type='submit'>Criar contrato</button>
           </div>
         </form>
