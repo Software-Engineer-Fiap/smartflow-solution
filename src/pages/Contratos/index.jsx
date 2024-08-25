@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState } from 'react';
 
 import './styles.scss';
 
@@ -6,11 +6,22 @@ import ContratoData from '../../assets/contratos.json';
 
 import { FaFileContract } from 'react-icons/fa6';
 import { FaPlus } from "react-icons/fa";
+import ModalCreate from './components/ModalCreate';
 
 const Contratos = () => {
+    const [contractData, setContractData] = useState(ContratoData);
+    const [isModalCreateOpen, setIsModalCreateOpen] = useState(false);
 
     const handleOpenCreateContractModal = () => {
-        alert('Modal para criar um novo contrato');
+        setIsModalCreateOpen(true);
+    }
+
+    const handleAddContract = (newContract) => {
+        setContractData([...contractData, newContract]);
+    }
+
+    const handleCloseCreateContractModal = () => {
+        setIsModalCreateOpen(false);
     }
     
     return (
@@ -29,7 +40,7 @@ const Contratos = () => {
             </div>
 
             <div className='content-contratos'>
-                {ContratoData.map((item, key) => (
+                {contractData.map((item, key) => (
                     <div key={key}>
                         <h4>Contrato: {item.CONTRATO}</h4>
                         <p>Descrição: {item.DESCRICAO}</p>
@@ -53,6 +64,7 @@ const Contratos = () => {
                     </div>
                 ))}
             </div>
+            {isModalCreateOpen && <ModalCreate onClose={handleCloseCreateContractModal} addNewContract={handleAddContract} />}
         </div>
     );
 };
