@@ -2,6 +2,7 @@ import React from 'react';
 import DemandasData from '../../assets/demandas.json';
 import './styles.scss';
 import { IoIosRefresh } from 'react-icons/io';
+import { ButtonModal } from './components/Modal';
 
 const Demandas = () => {
 
@@ -17,6 +18,7 @@ const Demandas = () => {
                             Atualizar Dados
                         </span>
                     </button>
+                    <ButtonModal className="button-adicionar"/>
                 </div>
             </div>
 

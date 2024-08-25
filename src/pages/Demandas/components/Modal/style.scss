@@ -1,0 +1,47 @@
+.openModal-button{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: .3vmax;
+    border: 1px solid #949090;
+    padding: .2vmax .8vmax;
+    border-radius: 5px;
+    transition: .5s;
+    
+    svg{
+        transition: .5s;
+    }
+}
+
+.openModal-button:active {
+    transform: scale(0.9);
+}
+
+.openModal-button::before{
+    display: flex;
+    content: '';
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(2, 154, 255, 0.7333333333);
+    transform: translateX(-100%);
+    transition: .8s ease;
+}
+
+.openModal-button:hover:before{
+    transform: translateX(0%);
+}
+
+.openModal-button:hover {
+    svg{
+        z-index: 2;
+        fill: #fff;
+    }
+}
+
