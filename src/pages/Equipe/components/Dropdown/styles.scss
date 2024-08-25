@@ -1,0 +1,118 @@
+.dropdown {
+    width: 100%;    
+    height: 1.8vmax;
+    position: relative;
+}
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 1.8vmax;
+
+    gap: .3vmax;
+    padding: 0vmax .4vmax;
+
+    border: .12vmax solid #222222;
+    border-radius: .2vmax;
+};
+.dropdown-content {
+    z-index: 10;
+
+    position: absolute;
+    top: 120%;
+
+    background: #141414;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    gap: .3vmax;
+    padding: .6vmax;
+
+    border: .12vmax solid #222222;
+    border-radius: .2vmax;
+
+    font-weight: 400;
+    font-size: .8vmax;
+};
+
+.dropdown-item-líder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #bb242423;
+
+    padding: .24vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid #bb2424bb;
+
+    color: #bb2424bb;
+
+    text-transform: capitalize;
+};
+.dropdown-item-consultor {
+    background: #244cbb23;
+
+    padding: .2vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid #244cbbbb;
+
+    color: #244cbbbb;
+    
+    text-transform: capitalize;
+};
+.dropdown-item-gerente {
+    background: rgba(119, 36, 187, 0.137);
+
+    padding: .2vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid rgba(119, 36, 187, 0.733);
+
+    color: rgba(119, 36, 187, 0.733);
+    
+    text-transform: capitalize;
+};
+.dropdown-item-junior {
+    background: #24ba7423;
+
+    padding: .2vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid #24ba74bb;
+
+    color: #24ba74bb;
+    
+    text-transform: capitalize;
+};
+.dropdown-item-pleno {
+    background: #24a3ba23;
+
+    padding: .2vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid #24a3babb;
+
+    color: #24a3babb;
+    
+    text-transform: capitalize;
+};
+.dropdown-item-senior {
+    background: #b0ba2423;
+
+    padding: .2vmax .6vmax;
+
+    border-radius: .14vmax;
+    border: .1vmax solid #b0ba24bb;
+
+    color: #b0ba24bb;
+    
+    text-transform: capitalize;
+};

@@ -6,6 +6,8 @@ export const Type = {
     'Sr': 'senior',
     'Pr': 'pleno',
     'Jr': 'junior',
-    'Ex': 'junior',
-    'Bg': 'junior',
+
+    'Senior': 'senior',
+    'Pleno': 'pleno',
+    'Junior': 'junior',
 };

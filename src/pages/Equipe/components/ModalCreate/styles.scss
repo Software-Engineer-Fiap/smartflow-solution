@@ -127,6 +127,8 @@
         font-size: .8vmax;
 
         color: #535353;
+
+        text-transform: capitalize;
     };
     input::placeholder {
         font-weight: 500;
@@ -135,6 +137,8 @@
         color: #353535;
 
         padding-bottom: .2vmax;
+
+        text-transform: capitalize;
     }
 
     svg {

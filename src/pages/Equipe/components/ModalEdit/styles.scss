@@ -1,9 +1,3 @@
-body ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 10px;
-    height: 10px;
-}
-
 .container-equipe {
     display: flex;
 
@@ -401,6 +395,8 @@ body ::-webkit-scrollbar {
     flex-direction: column;
 
     gap: .3vmax;
+
+    text-transform: capitalize;
 
     span {
         font-weight: 400;
