@@ -1,0 +1,258 @@
+::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+
+    width: 0px;
+    height: 0px;
+
+    background: red;
+}
+
+.core {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
+};
+
+main {
+    width: 100%;
+    height: 80%;
+};
+
+h1{
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+    font-family: "Krona One", sans-serif;
+}
+
+span{
+    color: #038ccc;
+    font-weight: 900;
+}
+
+.span_time{
+    color: #038ccc;
+    font-weight: 900;
+    padding: 0px 6px;
+}
+
+
+.container{
+   display: flex;
+}
+
+.box_principal{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.box1{
+    width: 850px;
+    padding: 0px 20px;
+}
+
+.box1 h2,p{
+    padding: 0px 80px;
+}
+
+.box1 h2 {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-family: "Krona One", sans-serif;
+}
+
+.box1 p{
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+
+
+.info{
+    display: flex;
+    gap: 0px 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+.box1_info, .box2_info , .box3_info{
+    padding: 80px 0px 80px 60px;
+    width: 250px;
+}
+
+.box1_info p , .box2_info p , .box3_info p{
+    padding: 0px;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box1_info img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px 20px 50px;
+}
+
+
+
+
+
+.box2_info img{
+    width: 100px;
+    height: 115px;  
+    margin: 0px 0px 6px 50px;
+}
+
+
+.box3_info img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px 20px 50px;
+}
+
+
+
+
+
+.box2{
+    padding-left: 110px;
+   
+}
+
+.box2_superior{
+    padding-bottom: 100px;
+}
+
+.box2_superior h3{
+    text-align: center;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box2_inferior h3{
+    text-align: center;
+    padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+.botao{
+    color: white;
+    text-decoration: none;
+    background-color: #038ccc;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    margin: 20px 0px 50px 80px;
+    font-weight: 700;
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: #006391;
+}
+
+
+
+
+
+#conteudo{
+    display: none;
+    padding: 0px 0px 20px 80px;
+}
+
+#conteudo h2{
+    font-family: "Krona One", sans-serif;
+}
+
+.conteudo_h2_2{
+    padding-top: 20px;
+}
+
+
+.conteudo_p_2{
+    padding: 10px 0px 0px 0px;
+    font-size: 1.2rem;
+    text-indent: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lista_tecnologias1{
+    padding: 35px 0px 50px 20px;
+    font-size: 1.4rem;
+}
+
+.lista_tecnologias2{
+    padding: 35px 0px 50px 20px;
+    font-size: 1.4rem;
+}
+
+
+.lista_tecnologias1 img{
+    width: 200px;
+    height: 200px;
+}
+
+.lista_tecnologias2 img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.lista_tecnologias1 li{
+   padding-top: 2px;
+   font-family: "Montserrat", sans-serif;
+   display: flex;
+   padding-bottom: 50px;
+   
+}
+
+.lista_tecnologias2 li{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+ }
+
+
+
+footer{
+    background-color: #151515;
+    color: #ffffff;
+    width: 100%;
+    height: 20%;
+}
+
+footer p{
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+    font-family: "Montserrat", sans-serif;
+}
