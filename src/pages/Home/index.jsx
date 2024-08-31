@@ -19,10 +19,14 @@ const Home = () => {
     const [project, setProject] = useState(false);
 
     return (
-        <div className='core'>
-            <h1>SmartFlow Solution <span>x</span> Softtek</h1>
+        <div className='container-home'>
+            <div className='header-home'>
+                <h1>SmartFlow Solution</h1> 
+                <span>x</span> 
+                <h1>Softtek</h1>
+            </div>
 
-            <div className="container">
+            <div className="content-home">
                 <div className="box_principal">
                     <div className="box1">
                         <h2>Não Deixe a Gestão de Capacidades e Demandas  <span>Ser um Obstáculo</span> a Produtividade da Sua Empresa!</h2>
@@ -30,20 +34,69 @@ const Home = () => {
                     </div>
 
                     <div className="info">
-                        <div className="box1_info">
-                            <img src={Planejamento} alt="imagem planejamento"/>
-                            <p>Evite desperdícios e custos adicionais com planejamentos imprecisos. O software da SmartFlow Solution gerencia e ajusta as alocações de recursos para garantir que a sua empresa está sempre operando com a máxima eficiência.</p>
-                        </div>
+                        <div className='info-box'>
+                            <div className="box1_info">
+                                <img src={Planejamento} alt="imagem planejamento" />
+                                <p>Evite desperdícios e custos adicionais com planejamentos imprecisos. O software da SmartFlow Solution gerencia e ajusta as alocações de recursos para garantir que a sua empresa está sempre operando com a máxima eficiência.</p>
+                            </div>
 
-                        <div className="box2_info">
-                            <img src={Produtividade} alt="imagem produtividade"/>
-                            <p> Com nosso sistema inteligente de alocação de recursos, você garante que cada membro da sua equipe esteja trabalhando no que faz de melhor, aumentando a eficiência e reduzindo o retrabalho.</p>
-                        </div>
+                            <div className="box2_info">
+                                <img src={Produtividade} alt="imagem produtividade" />
+                                <p> Com nosso sistema inteligente de alocação de recursos, você garante que cada membro da sua equipe esteja trabalhando no que faz de melhor, aumentando a eficiência e reduzindo o retrabalho.</p>
+                            </div>
 
-                        <div className="box3_info">
-                            <img src={Visao} alt="imagem visão"/>
-                            <p>Obtenha uma visão panorâmica e detalhada de todos os recursos da sua empresa, desde o pessoal até os equipamentos. Com dashboards intuitivos e relatórios dinâmicos, você poderá tomar decisões informadas e ágeis.</p>
+                            <div className="box3_info">
+                                <img src={Visao} alt="imagem visão" />
+                                <p>Obtenha uma visão panorâmica e detalhada de todos os recursos da sua empresa, desde o pessoal até os equipamentos. Com dashboards intuitivos e relatórios dinâmicos, você poderá tomar decisões informadas e ágeis.</p>
+                            </div>
                         </div>
+                        
+                        <button className="botao" onClick={() => setProject(!project)}>Sobre o Projeto</button>
+                    
+                        {project &&
+                            <div className='conteudo'>
+                                <div className='conteudo-tecnologias1'>
+                                    <h2>Nome dos integrantes</h2>
+                                    <div className="lista_tecnologias1">
+                                        <div>
+                                            <img src={Aaron} alt="Foto de Aaron" />
+                                            <h2>Aaron Magalhães</h2>
+                                            <span>Desenvolvedor e Editor</span>
+                                        </div>
+                                        <div>
+                                            <img src={Daniel} alt="Foto de Daniel" />
+                                            <h2>Daniel Diniz</h2>
+                                            <span>Desenvolvedor</span>
+                                        </div>
+                                        <div>
+                                            <img src={Joao} alt="Foto de João" />
+                                            <h2>João Mateus</h2>
+                                            <span>Desenvolvedor</span>
+                                        </div>
+                                        <div>
+                                            <img src={Renato} alt="Foto de Renato" />
+                                            <h2>Renato Messias</h2>
+                                            <span>Desenvolvedor</span>
+                                        </div>
+                                        <div>
+                                            <img src={Thiago} alt="Foto de Thiago" />
+                                            <h2>Aaron Magalhães</h2>
+                                            <span>Desenvolvedor</span>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div className='conteudo-tecnologias2'>
+                                    <h2 className="conteudo_h2_2">Tecnologias Utilizadas no Desenvolvimento do Projeto</h2>
+                                    <p className="conteudo_p_2"> <span> ⤿ </span> No desenvolvimento do software para gestão de capacidades e demandas a SmartFlow Solution utilizou tecnologias como:</p>
+                                    <ul className="lista_tecnologias2">
+                                        <li>Html <img src={HTML} alt="imagem html" /></li>
+                                        <li>Css <img src={Css} alt="imagem css" /></li>
+                                        <li>JavaScript <img src={Javascript} alt="imagem js" /></li>
+                                        <li>React <img src={ReactImg} alt="imagem react" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
                     </div>
                 </div>
 
@@ -66,7 +119,7 @@ const Home = () => {
                 <div className='conteudo'>
                     <h2>Nome Dos Integrantes da SmartFlow Solution e Suas Respectivas Funções:</h2>
                     <ul className="lista_tecnologias1">
-                        <img src={Aaron} alt="Foto de Aaron" />
+                        <img src='{Aaron}' alt="Foto de Aaron" />
                         <li>Aaron Magalhães Sena e Silva<span className="span_time"> ➙ </span> Desenvolvedor da página "Sobre o Projeto"</li>
 
                         <img src={Daniel} alt="Foto de Daniel" />
