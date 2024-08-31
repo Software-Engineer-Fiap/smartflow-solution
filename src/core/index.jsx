@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Router from '../routes/router';
+import Logo from '../assets/images/logosmartflow.png';
 
 import './styles.scss';
 import '../assets/styles/global.scss';
@@ -20,7 +21,7 @@ const App = () => {
         <div className="container">
             <div className="sidebar">
                 <div className="sidebar-top">
-                    <img src=""/>
+                    <img src={Logo}/>
 
                     <div className='sidebar-items'>
                         <span><a href="/" style={{ color: setSelected('/') }}>Sobre o projeto</a></span>

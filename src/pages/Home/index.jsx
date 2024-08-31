@@ -49,7 +49,7 @@ const Home = () => {
 
                 <div className="box2">
                     <div className="box2_superior">
-                        <iframe src="https://www.youtube.com/embed/K9NflzFtHR8" width="420" height="315"></iframe>
+                        <iframe src="https://www.youtube.com/embed/UAJcp_sqDsk" width="420" height="315"></iframe>
                         <h3>Video Pitch 1</h3>
                     </div>
 
@@ -66,7 +66,7 @@ const Home = () => {
                 <div className='conteudo'>
                     <h2>Nome Dos Integrantes da SmartFlow Solution e Suas Respectivas Funções:</h2>
                     <ul className="lista_tecnologias1">
-                        <img src='{Aaron}' alt="Foto de Aaron" />
+                        <img src={Aaron} alt="Foto de Aaron" />
                         <li>Aaron Magalhães Sena e Silva<span className="span_time"> ➙ </span> Desenvolvedor da página "Sobre o Projeto"</li>
 
                         <img src={Daniel} alt="Foto de Daniel" />
