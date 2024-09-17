@@ -6,6 +6,8 @@ import {
 
 import Router from '../routes/router';
 
+import Softtek from '../assets/images/icon.jfif';
+
 import './styles.scss';
 import '../assets/styles/global.scss';
 
@@ -20,7 +22,7 @@ const App = () => {
         <div className="container">
             <div className="sidebar">
                 <div className="sidebar-top">
-                    <img src=""/>
+                    <img src={Softtek}/>
 
                     <div className='sidebar-items'>
                         <span><a href="/" style={{ color: setSelected('/') }}>Sobre o projeto</a></span>
