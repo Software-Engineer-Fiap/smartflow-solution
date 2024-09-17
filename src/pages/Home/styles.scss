@@ -15,46 +15,47 @@
     height: 100%;
 
     overflow: scroll;
-}
-
-.header-home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: .4vmax;
-    margin: 2vmax 0vmax;
-
-    h1 {
-        font-weight: 500;
-        font-size: 2vmax;
-
-        color: #EBEBEB;
-    }
-
-    span {
-        font-weight: 400;
-        font-size: 1.4vmax;
-
-        color: #949090;
-    }
 };
 
-.content-home {
-    display: flex;
-    justify-content: center;
-
+main {
     width: 100%;
-    height: 100%;
+    height: 80%;
+};
 
-    gap: 4vmax;
+h1{
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+    font-family: "Krona One", sans-serif;
+}
+
+span{
+    color: #038ccc;
+    font-weight: 900;
+}
+
+.span_time{
+    color: #038ccc;
+    font-weight: 900;
+    padding: 0px 6px;
+}
+
+
+.container{
+   display: flex;
 }
 
 .box_principal {
     display: flex;
     flex-direction: column;
+}
 
-    gap: 1.4vmax;
+
+
+
+
+.box1{
+    width: 850px;
+    padding: 0px 20px;
 }
 
 .box1 {
@@ -131,7 +132,16 @@
 .box3_info img {
     width: 100px;
     height: 100px;
+    margin: 0px 0px 20px 50px;
+}
 
+
+
+
+
+.box2{
+    padding-left: 110px;
+   
 }
 
 .box2_superior {
@@ -154,17 +164,18 @@
     color: #EBEBEB;
     
     background-color: #038ccc;
-    border-radius: .2vmax;
-
-    width: 9vmax;
-    height: 2.4vmax;
-
-    font-size: .8vmax;
-    font-weight: 600;
-
-    transition: all .1s ease-in-out;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    margin: 20px 0px 50px 80px;
+    font-weight: 700;
 }
-.botao:hover {
+
+.botao:hover{
+    cursor: pointer;
     background-color: #006391;
 }
 
@@ -271,6 +282,36 @@
     width: 15px;
     height: 15px;
 }
-.lista_tecnologias2 li {
-    padding-top: 6px;
+
+
+.lista_tecnologias1 li{
+   padding-top: 2px;
+   font-family: "Montserrat", sans-serif;
+   display: flex;
+   padding-bottom: 50px;
+   
+}
+
+.lista_tecnologias2 li{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+ }
+
+
+
+footer{
+    background-color: #151515;
+    color: #ffffff;
+    width: 100%;
+    height: 20%;
+}
+
+footer p{
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+    font-family: "Montserrat", sans-serif;
 }

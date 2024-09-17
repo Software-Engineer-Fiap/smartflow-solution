@@ -102,7 +102,7 @@ const Home = () => {
 
                 <div className="box2">
                     <div className="box2_superior">
-                        <iframe src="https://www.youtube.com/embed/K9NflzFtHR8" width="420" height="315"></iframe>
+                        <iframe src="https://www.youtube.com/embed/UAJcp_sqDsk" width="420" height="315"></iframe>
                         <h3>Video Pitch 1</h3>
                     </div>
 
@@ -112,6 +112,44 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <button className="botao" onClick={() => {setProject(!project); console.log(project)}}>Sobre o Projeto</button>
+
+            {project && 
+                <div className='conteudo'>
+                    <h2>Nome Dos Integrantes da SmartFlow Solution e Suas Respectivas Funções:</h2>
+                    <ul className="lista_tecnologias1">
+                        <img src='{Aaron}' alt="Foto de Aaron" />
+                        <li>Aaron Magalhães Sena e Silva<span className="span_time"> ➙ </span> Desenvolvedor da página "Sobre o Projeto"</li>
+
+                        <img src={Daniel} alt="Foto de Daniel" />
+                        <li>Daniel Diniz Morais <span className="span_time">➙</span> Desenvolvedor da página "Demandas"</li>
+
+                        <img src={Joao} alt="Foto de João" />
+                        <li>João Mateus Guides <span className="span_time">➙</span> Desenvolvedor da página "Custos"</li>
+
+                        <img src={Renato} alt="Foto de Renato" />
+                        <li>Renato Messias Soares Conigero <span className="span_time">➙</span> Desenvolvedor da página "Equipe"</li>
+
+                        <img src={Thiago} alt="Foto de Thiago" />
+                        <li>Thiago Terra Fernandes <span className="span_time">➙</span> Desenvolvedor da página "Contratos"</li>
+                    </ul>
+
+                    <h2 className="conteudo_h2_2">Tecnologias Utilizadas no Desenvolvimento do Projeto</h2>
+                    <p className="conteudo_p_2"> <span> ⤿ </span> No desenvolvimento do software para gestão de capacidades e demandas a SmartFlow Solution utilizou tecnologias como:</p>
+                    <ul className="lista_tecnologias2">
+
+                        <li>Html <img src={HTML} alt="imagem html" /></li>
+                        <li>Css <img src={Css} alt="imagem css" /></li>
+                        <li>JavaScript <img src={Javascript} alt="imagem js" /></li>
+                        <li>React <img src={ReactImg} alt="imagem react" /></li>
+                    </ul>
+                </div>
+            }
+
+            <footer>
+                <p>© 2024 SmartFlow Solution - Todos os Direitos Reservados.</p>
+            </footer>
         </div>
     );
 };
